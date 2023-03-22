@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+
+    <div class="gamebox">
+    <h1>Number Guessing Game</h1>
+    <p>Please enter low number and high number for our guessing game range (for example: 1-100)</p>
+
+
+
+
+
+    <form name ="guessForm" onsubmit ="return submitData();">
+        <label for ="BottomRange">Bottom of Range</label>
+        <input type ="text" name ="min" id ="BottomRange"><br>
+        <label for ="TopRange">Top of Range</label>
+        <input type ="text" name ="max" id ="TopRange"><br> 
+        <button type ="submit">Play Game!</button>
+    
+    
+    </form>
+
+    </div>
+    <div id ="output"></div>
+
+    <script src ="game.js"></script>
+</body>
+
+
+</html>
